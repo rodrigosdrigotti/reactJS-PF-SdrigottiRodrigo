@@ -1,7 +1,9 @@
 import { useRef } from 'react'
+import './NavBar.css';
 import { FaBars, FaTimes,  } from 'react-icons/fa';
-import { HiOutlineShoppingBag } from 'react-icons/hi2';
-import { SlUser } from 'react-icons/sl'
+import CartWidget from '../CartWidget/CartWidget';
+import logo from './logoSB.png'
+
 
 export function NavBar() {
     const navRef = useRef();
@@ -13,7 +15,7 @@ export function NavBar() {
     return (
         <header className='container'>
             <div className='nav_brand'>
-                <a className='' href="#">Mi Marca</a>
+                <a href="#"><img src={ logo } alt={'logoSB'} /></a>
             </div>
             <nav ref={navRef} className='nav'>
                 <ul className='nav_list'>
@@ -28,8 +30,7 @@ export function NavBar() {
                     </li>
                 </ul>
                 <div className='nav-icons'>
-                    <a href="#"><SlUser size={'1.3em'}/></a>
-                    <a href="#"><HiOutlineShoppingBag size={'1.3em'}/></a>
+                    <CartWidget />
                 </div>
                 <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                     <FaTimes />
