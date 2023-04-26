@@ -1,0 +1,56 @@
+.contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.controles {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.btn {
+    color: black;
+    border-radius: 5px;
+    border: none;
+    width: 25px;
+    font-size: 25px;
+    background-color: rgba(254, 97, 72, 0.9);
+    cursor: pointer;
+}
+h4 {
+    font-size: 30px;
+    margin: 0 15px;
+}
+.btn-add{
+    color: black;
+    background-color: rgba(254, 97, 72, 0.9);
+    border: none;
+    width: 150px;
+    padding: 12.5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn:disabled {
+    background-color: rgba(254, 97, 72, 0.5);
+    color: rgb(0, 0, 0, 0.5);
+}
+.btn:disabled:hover {
+    background-color: rgba(254, 97, 72, 0.5);
+    color: rgb(0, 0, 0, 0.5);
+}
+.btn-add:disabled {
+    background-color: rgba(254, 97, 72, 0.5);
+    color: rgb(0, 0, 0, 0.5);
+}
+.btn-add:disabled:hover {
+    background-color: rgba(254, 97, 72, 0.5);
+    color: rgb(0, 0, 0, 0.5);
+}
+.btn-add:hover,
+.btn:hover {
+    background-color: rgba(254, 97, 72, 1);
+}
