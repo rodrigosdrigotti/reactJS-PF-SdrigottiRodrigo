@@ -52,10 +52,26 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
+.detail-finish {
+    margin: 20px auto 40px auto;
+}
 .detail-btn {
     width: 100%;
 }
 .btn-opcion {
+    color: black;
+    background-color: rgba(254, 97, 72, 0.9);
+    border: none;
+    width: 100%;
+    padding: 12.5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-finish {
     color: black;
     background-color: rgba(254, 97, 72, 0.9);
     border: none;

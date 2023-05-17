@@ -48,6 +48,9 @@
   background-color: rgba(254, 97, 72, 0.9);
   transition: all ease-in-out 250ms;
 }
+.nav .carrito:hover::after {
+  width: 0;
+}
 .nav a:hover::after {
   width: 100%;
 }

@@ -1,0 +1,69 @@
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-modal {
+    width: 500px;
+    min-height: 100px;
+    background-color: rgba(255, 255, 255, 0.25);
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgb(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.container-modal svg {
+    width: 100%;
+    color: #ffffff92;
+}
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e8e8e86a;
+}
+.encabezado h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffffad;
+}
+.btnCerrar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.btnCerrar:hover {
+    background-color: #f2f2f250;
+}
+.btnCerrar svg {
+    width: 100%;
+    height: 100%;
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenido h1 {
+    color: #ffffffa0;
+    font-size: 24px;
+    text-transform: uppercase;
+}

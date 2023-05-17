@@ -1,0 +1,33 @@
+.listCart {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.listCart > h1 {
+    color: #FFF;
+    font-size: 46px;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+.listCart > h3 {
+    color: #FFF;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+.Option {
+    color: black;
+    background-color: rgba(254, 97, 72, 0.9);
+    border: none;
+    width: 30%;
+    padding: 12.5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 25px;
+}

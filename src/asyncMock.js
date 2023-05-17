@@ -1,4 +1,4 @@
-const products = [
+/* const products = [
     {
         id: "1",
         name: "Barra Kipping",
@@ -67,7 +67,7 @@ const products = [
         name: "Storm Giacca Amarilla",
         price: 25999,
         category: "indumentaria",
-        image: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/307/484/products/buzos-331-ac6333debc6333e04b16691305293021-640-0.webp", 
+        image: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/307/484/products/tienda-nube-1-131-18bd178468bc8c384816831404603886-640-0.webp", 
         description: "Campera de media estacion MKF. Soft shell con micro polar por dentro. Cuenta con cierre central y bolsillos con cierre chest. Cintura y capucha con elástico regulable.",
         stock: 15
     }
@@ -96,3 +96,4 @@ export const getProductsByCategory = (categoryId) => {
         }, 500);
     })
 }
+ */

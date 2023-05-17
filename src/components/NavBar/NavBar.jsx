@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import './NavBar.css';
 import { FaBars, FaTimes,  } from 'react-icons/fa';
 import CartWidget from '../CartWidget/CartWidget';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from './logoSB.png'
 
 
@@ -31,7 +31,7 @@ export function NavBar() {
                     </li>
                 </ul>
                 <div className='nav-icons'>
-                    <CartWidget />
+                    <Link className='carrito' to="/cart"><CartWidget /></Link>
                 </div>
                 <button className='nav-btn nav-close-btn' onClick={showNavBar}>
                     <FaTimes />

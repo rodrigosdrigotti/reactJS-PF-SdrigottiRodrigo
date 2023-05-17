@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import './ItemDetail.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ItemCount } from '../ItemCount/ItemCount';
+import { CartContext } from '../../context/CartContext';
 
 export const ItemDetail = ({ id, name, image, description, category, price, stock }) => {
   const navigate = useNavigate();
 
-  const onAdd = (quantity) => {
-    console.log(`Compraste ${quantity} unidades.`);
-  }
+  const [quantityAdded, setQuantityAdded] = useState(1);
 
+  const { addItem } = useContext(CartContext);
+  const [goToCart, setGoToCart] = useState(false)
+
+  const handleOnAdd = (quantity) => {
+    setQuantityAdded(quantity);
+    setGoToCart(true);
+    const item = {
+      id, name, image, price
+    }
+    addItem(item, quantity);
+  }
+  
   return (
     <div className='detail-container'>
         <div className='detail-img'>
@@ -23,8 +34,10 @@ export const ItemDetail = ({ id, name, image, description, category, price, stoc
             </div>
             <p>Descripcion: {description}</p>
         </div>
-        <div>
-          <ItemCount initial={1} stock={10} onAdd={onAdd}/>
+        <div className='detail-finish'>
+          {
+            goToCart ? <Link className='btn-finish' to="/cart">Terminar Compra</Link> : <ItemCount initial={quantityAdded} stock={stock+1} onAdd={handleOnAdd}/>
+          }
         </div>
         <div className='detail-btn'>
           <button className='btn-opcion' onClick={() => navigate(-1)}>Go back</button>
