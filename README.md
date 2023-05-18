@@ -1,10 +1,24 @@
-# Getting Started with Create React App
+# SBEntrenamientos - Ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SBentrenamientos es un ecommerce para poder comprar indumentaria o equipamiento para poder hacer calistenia en tu casa o donde quieras.
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+Este proyecto fue creado con Create React App](https://github.com/facebook/create-react-app).
+
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+
+Mira Deployment a continuación para conocer como desplegar el proyecto.
+
+[![Generic badge](https://img.shields.io/badge/DEPLOY-SBENTRENAMIENTOS-<COLOR>.svg)](https://google.com.ar/)
+
+
+#### Pre-requisitos 📋
+Que cosas necesitas para instalar el software y como instalarlas:
+
+Visual Studio Code
+
+### Instalación 🔧
 
 ### `npm start`
 

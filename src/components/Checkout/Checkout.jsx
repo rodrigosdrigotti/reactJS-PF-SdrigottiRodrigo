@@ -31,9 +31,7 @@ export const Checkout = () => {
             const batch = writeBatch(db);
             const outOfStock = [];
             const ids = cart.map(prod => prod.id);
-            //const productsRef = collection(db, 'items');
             const productsAddedFromFirestone = await getDocs(query(collection(db, 'items'), where(documentId(), 'in', ids)))
-            //const productsAddedFromFirestone = await getDocs(query(productsRef), where(documentId(),'in', ids))
             const { docs } = productsAddedFromFirestone;
 
             docs.forEach((doc) => {
@@ -72,10 +70,19 @@ export const Checkout = () => {
     }
 
     if(loading) {
-        return <h1>SE ESTÁ GENERANDO SU ORDEN...</h1>
+        return (
+            <div className="checkoutOrder">
+                <h1>SE ESTÁ GENERANDO SU ORDEN...</h1>
+            </div>
+        )
     }
     if(orderId) {
-        return <h1>EL NUMERO DE SU ORDEN ES: {orderId}</h1>
+        return (
+                <div className="checkoutOrder">
+                    <h2>GRACIAS POR LA COMPRA!!</h2>
+                    <h1>EL NUMERO DE SU ORDEN ES: {orderId}</h1>
+                </div>
+            )
     }
 
     return (

@@ -5,7 +5,6 @@ import CartWidget from '../CartWidget/CartWidget';
 import { Link, NavLink } from 'react-router-dom';
 import logo from './logoSB.png'
 
-
 export function NavBar() {
     const navRef = useRef();
 
