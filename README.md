@@ -34,7 +34,7 @@ Para la carpeta de producción.
 Para la base de datos.
 ##### npm install firebase
 
-### :hammer: Funcionalidades del proyecto
+### Funcionalidades del proyecto :hammer:
 
 - `Funcionalidad 1`: Visualizacion de un set de productos
 - `Funcionalidad 2`: Menu para filtrar categorías
