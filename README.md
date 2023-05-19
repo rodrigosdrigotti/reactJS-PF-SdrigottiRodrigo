@@ -23,16 +23,16 @@ Visual Studio Code
 ### Instalación 🔧
 
 Instalar dependecias.
-##### npm install
+##### `npm install`
 
 Para inicilizar y verlo en tu explorador en [http://localhost:3000](http://localhost:3000)
-##### npm start
+##### `npm start`
 
 Para la carpeta de producción.
-##### npm run build
+##### `npm run build`
 
 Para la base de datos.
-##### npm install firebase
+##### `npm install firebase`
 
 ### Funcionalidades del proyecto :hammer:
 
