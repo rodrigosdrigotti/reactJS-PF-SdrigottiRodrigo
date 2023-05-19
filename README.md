@@ -2,14 +2,14 @@
 
 SBentrenamientos es un proyecto creado para la cursada REACT JS de CODERHOUSE. Basicamente es un ecommerce donde podes comprar indumentaria o equipamiento para poder hacer calistenia en tu casa o donde quieras.
 
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/rodrigosdrigotti/Desktop/reactJS-PreEntrega1-SdrigottiRodrigo/public/Captura.png?version%3D1684453385930)
+![Alt text](src/Captura.png)
 
 ## Comenzando 🚀
 
 Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app).
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
-![Alt text](src/fondoPared.jpg)
+
 Mira Deployment a continuación para conocer como desplegar el proyecto.
 
 [![Generic badge](https://img.shields.io/badge/DEPLOY-SBENTRENAMIENTOS-<COLOR>.svg)](https://react-js-pf-sdrigotti-rodrigo.vercel.app/)
