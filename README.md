@@ -36,11 +36,12 @@ Para la base de datos.
 
 ### Funcionalidades del proyecto :hammer:
 
-- `Funcionalidad 1`: Visualizacion de un set de productos
-- `Funcionalidad 2`: Menu para filtrar categorías
-- `Funcionalidad 3`: Acceso visible al carrito
-- `Funcionalidad 4`: Acceso a la descripción de cada producto
-- `Funcionalidad 5`: Chequeo en stock cantidad de productos
-- `Funcionalidad 6`: Formulario para la generación de orden
-- `Funcionalidad 7`: Generación de orden de compra con id y detalle de productos
-
+- `Funcionalidad 1`: Sistema de Registro y Login
+- `Funcionalidad 2`: Visualizacion de un set de productos
+- `Funcionalidad 3`: Menu para filtrar categorías
+- `Funcionalidad 4`: Acceso visible al carrito
+- `Funcionalidad 5`: Acceso a la descripción de cada producto
+- `Funcionalidad 6`: Chequeo en stock cantidad de productos
+- `Funcionalidad 7`: Formulario para la generación de orden
+- `Funcionalidad 8`: Generación de orden de compra con id y nombre de usuario
+- `Funcionalidad 9`: Generacion de Alertas

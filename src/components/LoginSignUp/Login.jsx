@@ -11,7 +11,7 @@ export const Login = () => {
     const passwordRef = useRef();
     const { login } = useContext(AuthContext);
     const [error, setError] = useState('');
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(false);
     
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -19,7 +19,8 @@ export const Login = () => {
         try {
             setError('');
             setLoading(true);
-            await login(emailRef.current.value, passwordRef.current.value);
+            await login(emailRef.current.value, passwordRef.current.value)
+            .then()
             navigate('/')
         }
         catch {

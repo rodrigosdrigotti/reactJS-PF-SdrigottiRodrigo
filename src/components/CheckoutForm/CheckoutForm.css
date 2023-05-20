@@ -22,6 +22,9 @@
     border-radius: 20px;
     box-shadow: 0 3px 35px rgb(0 0 0 / 0.2);
 }
+.checkoutOrder svg {
+    color: #ffffff83;
+}
 .form {
     display: flex;
     flex-direction: column;
@@ -34,12 +37,20 @@ h1 {
     color: #FFF;
     font-size: 46px;
     letter-spacing: 1.5px;
-    margin: 50px;
+    margin: 40px;
 }
 h2 {
     text-align: center;
     color: #FFF;
     font-size: 46px;
+    letter-spacing: 1.5px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+h3 {
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
     letter-spacing: 1.5px;
     margin: 20px;
     text-transform: uppercase;

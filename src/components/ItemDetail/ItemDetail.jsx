@@ -36,8 +36,7 @@ export const ItemDetail = ({ id, name, image, description, category, price, stoc
         </div>
         <div className='detail-finish'>
           {
-            //SE PUSO STOCK + 1 PARA PODER VISUALIZAR EL MODAL EN CASO DE QUE ESTE FUERA DE STOCK EL PRODUCTO. AL SACAR EL +1 DIRECTAMENTE NO TE DEJAR AGREGAR MAS PRODUCTOS.
-            goToCart ? <Link className='btn-finish' to="/cart">Terminar Compra</Link> : <ItemCount initial={quantityAdded} stock={stock+1} onAdd={handleOnAdd}/>
+            goToCart ? <Link className='btn-finish' to="/cart">Terminar Compra</Link> : <ItemCount initial={quantityAdded} stock={stock} onAdd={handleOnAdd}/>
           }
         </div>
         <div className='detail-btn'>

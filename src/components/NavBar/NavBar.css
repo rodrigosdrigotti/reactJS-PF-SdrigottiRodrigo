@@ -24,6 +24,26 @@
 .nav-icons a {
   margin-right: 5px !important;
 }
+.nav-icon-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.btn-nav-icon-user {
+  color: black;
+  background-color: rgba(254, 97, 72, 0.9);
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+}
 .nav_brand a {
   color: rgba(255, 255, 255, 0.7);
   font-size: 2.5em;

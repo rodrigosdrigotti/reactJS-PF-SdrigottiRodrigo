@@ -79,6 +79,10 @@
     outline: none;
     padding: 10px;
 }
+.input::placeholder {
+    color: #ffffff85;
+    font-size: 20px;
+}
 .button {
     color: black;
     background-color: rgba(254, 97, 72, 0.9);

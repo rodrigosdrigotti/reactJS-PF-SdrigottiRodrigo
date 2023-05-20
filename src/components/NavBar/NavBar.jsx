@@ -1,10 +1,11 @@
-import { useRef, useContext, useState, useEffect } from 'react'
-import './NavBar.css';
+import { useRef, useContext, useState } from 'react'
 import { FaBars, FaTimes,  } from 'react-icons/fa';
 import CartWidget from '../CartWidget/CartWidget';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import logo from './logoSB.png';
 import { AuthContext } from '../../context/AuthContext';
+import { Alert } from '../Alert/Alert';
+import './NavBar.css';
 
 export function NavBar() {
     const navigate = useNavigate();
@@ -46,9 +47,11 @@ export function NavBar() {
                         </li>
                     </ul>
                     <div className='nav-icons'>
-                        {/* {error && <Alert variant="danger">{ error }</Alert>} */}
-                        {currentUser.email}
-                        <button onClick={handleLogout}>Logout</button>
+                        {<Alert error={error} />}
+                        <div className='nav-icon-user'>
+                            {currentUser.email}
+                            <button className='btn-nav-icon-user' onClick={handleLogout}>Logout</button>
+                        </div>
                         <Link className='carrito' to="/cart"><CartWidget /></Link>
                     </div>
                     <button className='nav-btn nav-close-btn' onClick={showNavBar}>

@@ -50,6 +50,7 @@ export const Signup = () => {
                 <label className='label'>
                     Contraseña:
                     <input className='input' 
+                        placeholder='Debe tener 6 o más caracteres'
                         id='password'
                         type="password"
                         ref={passwordRef}
@@ -59,6 +60,7 @@ export const Signup = () => {
                 <label className='label'>
                     Confirmar Contraseña:
                     <input className='input' 
+                        placeholder='Debe tener 6 o más caracteres'
                         id='password-confirm'
                         type="password"
                         ref={passwordConfirmRef}
