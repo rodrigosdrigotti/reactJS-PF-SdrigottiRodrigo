@@ -14,8 +14,8 @@
     <li>
       <a href="#comenzando">Comenzando</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#pre-requisitos">Pre-requisitos</a></li>
+        <li><a href="#instalacion">Instalacion</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -32,22 +32,18 @@ SBentrenamientos es un proyecto creado para la cursada REACT JS de CODERHOUSE. B
 
 ![Alt text](src/Captura.png)
 
-<p align="right">(<a href="#readme-top" >Ir para arriba</a>)</p>
-
 ### Construido con
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Lista de Frameworks / Libraries que vas a necesitar
 
-* [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Node][Node.js]][Node-url]
+* [![Firebase][Firebase.com]][Firebase-url]
 * [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![CSS3][Css3.com]][CSS3-url]
+* [![VisualStudioCode][Visualstudio.com]][VSC-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top"> Ir arriba </a>)</p>
 
 
 ## Comenzando 🚀
@@ -64,27 +60,34 @@ Mira Deployment a continuación para conocer el proyecto.
 #### Pre-requisitos 📋
 Que cosas necesitas para instalar el software y como instalarlas:
 
-Visual Studio Code + Firebase
-<p align="left"><img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/042e36c55d4d757621dedc4f03108213fbb57ec4/text%20editors/vscode.svg" alt="firebase" width="40" height="40"/>
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a></p>
+Visual Studio Code + Firebase + Node js
 
 ### Instalación 🔧
 
-Instalar dependecias.
-##### `npm install`
+Instrucciones para setear tu app.
 
-Para inicilizar y verlo en tu explorador en [http://localhost:3000](http://localhost:3000)
-##### `npm start`
+1. Clonar el repositorio
+   ```sh
+   git clone https://github.com/rodrigosdrigotti/reactJS-PF-SdrigottiRodrigo.git
+   ```
+2. Install NPM packages para inicilizar y verlo en tu explorador en [http://localhost:3000](http://localhost:3000)
+   ```sh
+   npm install
+   ```
+3. Para la base de datos.
+   ```sh
+   npm install firebase
+   ```
+4. Para la carpeta de producción.
+   ```sh
+   npm install build
+   ```
 
-Para la carpeta de producción.
-##### `npm run build`
-
-Para la base de datos.
-##### `npm install firebase`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Funcionalidades del proyecto :hammer:
 
-- `Funcionalidad 1`: Sistema de Registro y Login
+- `Funcionalidad 1`: Sistema de Registro y Login con recupero de contraseña
 - `Funcionalidad 2`: Visualizacion de un set de productos
 - `Funcionalidad 3`: Menu para filtrar categorías
 - `Funcionalidad 4`: Acceso visible al carrito
@@ -94,13 +97,9 @@ Para la base de datos.
 - `Funcionalidad 8`: Generación de orden de compra con id y nombre de usuario
 - `Funcionalidad 9`: Generacion de Alertas
 
-#### Lenguajes y Herramientas
+## License
 
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
-
-## Licencia
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Distribuido bajo la licencia [MIT](https://choosealicense.com/licenses/mit/). Mirá `LICENSE.txt` para más información.
 
 ## Contacto
 
@@ -110,3 +109,15 @@ Project Link: [https://github.com/rodrigosdrigotti/reactJS-PF-SdrigottiRodrigo.g
 
 <p align="right">(<a href="#readme-top"> Ir arriba </a>)</p>
 
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Node.js]: https://img.shields.io/badge/node.js-35495E?style=for-the-badge&logo=node.js&logoColor=4FC08D
+[Node-url]: https://nodejs.org/es
+[Firebase.com]: https://img.shields.io/badge/Firebase-FF6F00?style=for-the-badge&logo=firebase&logoColor=white
+[Firebase-url]: https://firebase.google.com/
+[Laravel.com]: https://img.shields.io/badge/Javascript-FF2D20?style=for-the-badge&logo=javascript&logoColor=white
+[Laravel-url]: https://laravel.com
+[Css3.com]: https://img.shields.io/badge/CSS3-563D7C?style=for-the-badge&logo=css3&logoColor=white
+[CSS3-url]: https://www.w3.org/Style/CSS/Overview.en.html
+[Visualstudio.com]: https://img.shields.io/badge/VSC-0769AD?style=for-the-badge&logo=visualstudiocode&logoColor=white
+[VSC-url]: https://code.visualstudio.com
