@@ -41,6 +41,7 @@ export const Signup = () => {
                 <label className='label'>
                     Email:
                     <input className='input'
+                        autoComplete='off'
                         id='email'
                         type="email"
                         ref={emailRef}
