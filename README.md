@@ -83,7 +83,7 @@ Instrucciones para setear tu app.
    npm install build
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top"> Ir arriba </a>)</p>
 
 ### Funcionalidades del proyecto :hammer:
 
