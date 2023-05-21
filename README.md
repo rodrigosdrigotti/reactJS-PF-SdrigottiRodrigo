@@ -8,27 +8,26 @@
     <li>
       <a href="#sobre-el-proyecto">Sobre el Proyecto</a>
       <ul>
-        <li><a href="#built-with">Construido</a></li>
+        <li><a href="#construido-con">Construido con</a></li>
       </ul>
     </li>
     <li>
       <a href="#comenzando">Comenzando</a>
       <ul>
         <li><a href="#pre-requisitos">Pre-requisitos</a></li>
-        <li><a href="#instalacion">Instalacion</a></li>
+        <li><a href="#instalación">Instalación</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#funcionalidades-del-proyecto">Funcionalidades del proyecto</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#contacto">Contacto</a></li>
   </ol>
 </details>
 
 ## Sobre el Proyecto
 SBentrenamientos es un proyecto creado para la cursada REACT JS de CODERHOUSE. Basicamente es un ecommerce donde podes comprar indumentaria o equipamiento para poder hacer calistenia en tu casa o donde quieras.
+
+![Alt text](src/login-captura.png)
 
 ![Alt text](src/Captura.png)
 
@@ -46,7 +45,7 @@ Lista de Frameworks / Libraries que vas a necesitar
 <p align="right">(<a href="#readme-top"> Ir arriba </a>)</p>
 
 
-## Comenzando 🚀
+## Comenzando 
 
 Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app).
 
@@ -57,12 +56,12 @@ Mira Deployment a continuación para conocer el proyecto.
 [![Generic badge](https://img.shields.io/badge/DEPLOY-SBENTRENAMIENTOS-<COLOR>.svg)](https://react-js-pf-sdrigotti-rodrigo.vercel.app/)
 
 
-#### Pre-requisitos 📋
+#### Pre-requisitos 
 Que cosas necesitas para instalar el software y como instalarlas:
 
 Visual Studio Code + Firebase + Node js
 
-### Instalación 🔧
+#### Instalación 
 
 Instrucciones para setear tu app.
 
@@ -85,7 +84,7 @@ Instrucciones para setear tu app.
 
 <p align="right">(<a href="#readme-top"> Ir arriba </a>)</p>
 
-### Funcionalidades del proyecto :hammer:
+### Funcionalidades del proyecto
 
 - `Funcionalidad 1`: Sistema de Registro y Login con recupero de contraseña
 - `Funcionalidad 2`: Visualizacion de un set de productos
@@ -97,7 +96,7 @@ Instrucciones para setear tu app.
 - `Funcionalidad 8`: Generación de orden de compra con id y nombre de usuario
 - `Funcionalidad 9`: Generacion de Alertas
 
-## License
+## Licencia
 
 Distribuido bajo la licencia [MIT](https://choosealicense.com/licenses/mit/). Mirá `LICENSE.txt` para más información.
 
@@ -121,3 +120,4 @@ Project Link: [https://github.com/rodrigosdrigotti/reactJS-PF-SdrigottiRodrigo.g
 [CSS3-url]: https://www.w3.org/Style/CSS/Overview.en.html
 [Visualstudio.com]: https://img.shields.io/badge/VSC-0769AD?style=for-the-badge&logo=visualstudiocode&logoColor=white
 [VSC-url]: https://code.visualstudio.com
+

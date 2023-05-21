@@ -4,6 +4,7 @@ import CartWidget from '../CartWidget/CartWidget';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import logo from './logoSB.png';
 import { AuthContext } from '../../context/AuthContext';
+import { CartContext } from "../../context/CartContext";
 import { Alert } from '../Alert/Alert';
 import './NavBar.css';
 
@@ -12,6 +13,7 @@ export function NavBar() {
     const navRef = useRef();
     const { currentUser, logout } = useContext(AuthContext);
     const [error, setError] = useState('');
+    const { clearCart } = useContext(CartContext);
 
     const showNavBar = () => {
         navRef.current.classList.toggle("responsive_nav");
@@ -21,6 +23,7 @@ export function NavBar() {
         setError('');
         try {
             await logout();  
+            clearCart();
             navigate("/login");  
         } catch (error) {
             setError('Falló cerrar sesión');
